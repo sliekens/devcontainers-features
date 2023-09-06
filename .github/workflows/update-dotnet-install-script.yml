@@ -44,5 +44,5 @@ jobs:
                 -f title="$message" \
               -f body="$message" \
               -f head="$branch" \
-              -f base='main'
+              -f base="$GITHUB_REF_NAME"
           fi
