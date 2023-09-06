@@ -5,7 +5,7 @@ on:
   - cron: '0 0 * * 0'  # Runs every Sunday at midnight UTC (adjust as needed)
 
 jobs:
-  generate:
+  fetch-latest-dotnet-install:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
